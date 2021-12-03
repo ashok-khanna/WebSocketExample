@@ -11,6 +11,7 @@
 		8049DE09275A978300A24E28 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8049DE08275A978300A24E28 /* ContentView.swift */; };
 		8049DE0B275A978800A24E28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8049DE0A275A978800A24E28 /* Assets.xcassets */; };
 		8049DE0E275A978800A24E28 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8049DE0D275A978800A24E28 /* Preview Assets.xcassets */; };
+		8049DE16275A983900A24E28 /* Sockets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8049DE15275A983900A24E28 /* Sockets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,8 @@
 		8049DE0A275A978800A24E28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8049DE0D275A978800A24E28 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8049DE0F275A978800A24E28 /* WebSocketExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WebSocketExample.entitlements; sourceTree = "<group>"; };
+		8049DE15275A983900A24E28 /* Sockets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sockets.swift; sourceTree = "<group>"; };
+		8049DE17275A98F500A24E28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +55,10 @@
 		8049DE05275A978300A24E28 /* WebSocketExample */ = {
 			isa = PBXGroup;
 			children = (
+				8049DE17275A98F500A24E28 /* Info.plist */,
 				8049DE06275A978300A24E28 /* WebSocketExampleApp.swift */,
 				8049DE08275A978300A24E28 /* ContentView.swift */,
+				8049DE15275A983900A24E28 /* Sockets.swift */,
 				8049DE0A275A978800A24E28 /* Assets.xcassets */,
 				8049DE0F275A978800A24E28 /* WebSocketExample.entitlements */,
 				8049DE0C275A978800A24E28 /* Preview Content */,
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8049DE09275A978300A24E28 /* ContentView.swift in Sources */,
+				8049DE16275A983900A24E28 /* Sockets.swift in Sources */,
 				8049DE07275A978300A24E28 /* WebSocketExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,6 +282,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WebSocketExample/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -303,6 +310,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WebSocketExample/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
